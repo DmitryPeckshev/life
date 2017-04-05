@@ -1,0 +1,49 @@
+body{
+	height:100%;
+}
+h1 {
+	display:block;
+	width:100%;
+	font-family:"Lucida Sans";
+	font-family:"Lucida Sans";
+	font-style: normal;
+	font-size: 28px;
+	text-align: center;
+	color: #363636;
+	margin-bottom: 10px;
+	margin-top: -2px;
+	text-shadow: 3px -3px 6px #9C9C9C;
+}
+#world {
+	border: 3px #4F4F4F solid;
+	margin: auto;
+	box-shadow: 3px -3px 7px #9C9C9C;
+}
+.cell {
+	width: 5px;
+	height: 5px;
+	border: 0.5px #696969 solid;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+}
+.live {
+	background: #000;
+}
+
+#worldinfo {
+	margin: auto;
+	text-align: center;
+	font-family:Verdana;
+	color: #1C1C1C;
+	margin-bottom: 12px;
+	margin-left: 2.7%;
+	text-shadow: 2px -2px 4px #9C9C9C;
+}
+#worldinfo span{
+	margin-left: 4px;
+	margin-right: 3.2%;
+
+}
+
+
